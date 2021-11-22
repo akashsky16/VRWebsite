@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.subcontainer1{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header{
+    width: 99%;
+    display: flex;
+    background-color: rgb(250, 203, 116);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#slider1, #slider2{
+    text-decoration: none;
+}
+ .img1{
+     margin-left: 20%;
+     height: 50px;
+     width: 50px;
+ }
+
+ .links{
+    margin-left: 20%;
+ }
+
+ .hlink{
+     text-decoration: none;
+    font-size: 18px;
+    color: rgb(245, 61, 6);
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+ .btn1{
+     margin-left: 20px;
+     margin-top: 10px;
+     border: none;
+     background-color: rgb(245, 61, 6);
+     color: white;
+     width: 100px;
+     height: 25px;
+ }
+
+ .info{
+     display: flex;
+     flex-direction: row;
+     background-color: rgb(245, 61, 6);
+ }
+
+ .bi-circle-fill:hover{
+     fill:white;
+ }
+
+ #img2{
+     width: 600px;
+     height: 600px;
+ }
+
+ .info1{
+     width: 70%;
+     margin-top: 10%;
+     margin-left: 20%;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 500;
+     font-size: 32px;
+ }
+
+ #singer,#singer1{
+     font-size: 48px;
+     color: rgb(250, 203, 116) ;
+ }
+
+ .btn2{
+     border: none;
+     background-color: white;
+     color: rgb(245, 61, 6);
+     width: 100px;
+     height: 25px;
+     font-weight: 600;
+     border-radius: 5px;
+ }
+
+ .clink{
+     color: rgb(250, 203, 116) ;
+     font-size: 22px;
+ }
+
+ .subcontainer2{
+     background-color: rgb(250, 203, 116);
+     color: rgb(245, 61, 6);
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     padding: 50px;
+ }
+
+ h1{
+     margin-bottom: 10px;
+ }
+
+ .box{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     grid-template-areas: 
+     "box1 box2 box3"
+     "box4 box5 box6";
+     margin: auto;
+     width: 70%;
+     height: 450px;
+     margin-top: 30px;
+     border: 2px solid rgb(245, 61, 6);
+     text-align: center;
+ }
+
+ 
+
+ .box1{
+     grid-area: box1;
+     border: 2px solid rgb(245, 61, 6);
+     padding: 15px;
+ }
+
+ .box2{
+     grid-area: box2;
+     border: 2px solid rgb(245, 61, 6);
+     background-color: rgb(245, 61, 6);
+     padding: 15px;
+     color: white;
+ }
+
+
+ .box3{
+     grid-area: box3;
+     border: 2px solid rgb(245, 61, 6);
+     padding: 25px;
+ }
+ .box4{
+    grid-area: box4;
+    border: 2px solid rgb(245, 61, 6);
+    padding: 15px;
+}
+
+.box5{
+    grid-area: box5;
+    border: 2px solid rgb(245, 61, 6);
+    padding: 38px;
+}
+
+.box6{
+    grid-area: box6;
+    border: 2px solid rgb(245, 61, 6);
+    padding: 15px;
+}
+
+.btn3{
+    margin-top: 40px;
+    border: none;
+     background-color: rgb(245, 61, 6);
+     color: white;
+     width: 100px;
+     height: 25px;
+     font-weight: 600;
+     border-radius: 5px;
+}
+
+.linfo{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 61, 6);
+}
+
+.linfo1{
+    width: 70%;
+     margin-top: 18%;
+     margin-left: 20%;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 500;
+     font-size: 26px;
+}
+
+
+.btn4{
+    border: none;
+     background-color: white;
+     color: rgb(245, 61, 6);
+     width: 100px;
+     height: 25px;
+     font-weight: 600;
+     border-radius: 5px;
+}
